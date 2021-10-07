@@ -1,10 +1,23 @@
+import Item from './components/Item';
+import Card from './components/Card';
 
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <h1>Primeira aplicação com react</h1>
+      <ul>
+        <Item>
+          Item 1
+        </Item>
+        <Item>
+          Item 2
+        </Item>
+        <Item>
+          Item 3
+        </Item>
+      </ul>
+      <Card/>
+    </>
   );
 }
 
